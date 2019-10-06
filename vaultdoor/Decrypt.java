@@ -20,7 +20,7 @@ class Decrypt {
       buffer[46-i] = reverse.charAt(i);
     }
     for (i = 31; i >= 17; i-=2) {
-      buffer[i] = reverse.chatAt(i);
+      buffer[i] = reverse.charAt(i);
     }
     return new String(buffer);
   }
